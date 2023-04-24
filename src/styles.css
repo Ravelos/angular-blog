@@ -2,6 +2,12 @@
 *{
   margin: 0;
   padding: 0;
+  color: white;
   box-sizing: border-box;
   background-color: #111111;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+a{
+  text-decoration: none;
 }
