@@ -11,9 +11,14 @@ export class ContentComponent implements OnInit {
   contentTitle: string = '';
   contentDescription: string = '';
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
+    this.route.paramMap.subscribe(values =>
+      console.log(value.get("id"))
+    )
   }
 
 }
